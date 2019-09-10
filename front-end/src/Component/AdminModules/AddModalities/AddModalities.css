@@ -1,0 +1,68 @@
+   .table-wrap {
+       border: 1px solid lightskyblue;
+       border-radius: 5px;
+       padding: 20px 15px 60px 15px;
+       height: 100%;
+   }
+   .table-wrap span {
+       background-color:blue;
+       color: #fff;
+       border-radius: 15px;
+       font-size: 12px;
+      padding:  0 30px;
+       margin-left: 10px;
+   }
+   .table-wrap span.active {
+       background-color: red;
+       padding:  0 25px;
+   }
+   .loader {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+   }
+   .form-wrap {
+        border: 1px solid lightskyblue;
+        border-radius: 5px;
+        padding: 20px 15px 60px 15px;
+        height: 100%;
+   }
+   .form-wrap .country-code {
+       display: flex;
+       align-items: center;
+       margin-bottom: 50px;
+   }
+   .form-wrap .form-check {
+    margin-top: 35px;
+   }
+   .tables-row {
+       display: flex;
+       flex-wrap: wrap;
+   }
+   .button-wrap {
+       float: right;
+   }
+   .button-wrap .btn {
+       margin-right: 15px;
+       line-height: 40px;
+       border-radius: 6px;
+       padding: 0 60px;
+   }
+   .button-wrap .btn-clear {
+    background-color: crimson;
+    color: white; 
+   }
+   .button-wrap .btn-add {
+    background-color: cornflowerblue;
+    color: white;
+   }
+   @media screen and (max-width: 992px) {
+        .table-wrap table th {
+            font-size: 16px;
+            padding-right: 10px;
+        }
+        .table-wrap table td {
+            font-size: 14px;
+        }
+   }

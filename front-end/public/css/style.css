@@ -1,0 +1,239 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+h6 {
+    color: #4e1e5e;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: #4e1e5e;
+    outline: 0;
+    transition: 0.3s all ease;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+    color: #4e1e5e;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.no-padding {
+    margin: 0;
+}
+
+.no-padding > .col,
+.no-padding > [class*="col-"] {
+    padding: 0;
+}
+
+.btn {
+    border-radius: 0;
+    border: none;
+    outline: 0;
+    border: 2px solid transparent;
+}
+
+.btn:focus {
+    outline: 0;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+    width: 96%;
+}
+.back_btn {
+    position: relative;
+}
+.back-to-top {
+    position: absolute; 
+    right: 1%;
+    bottom: 3%;
+    padding: 12px 0px;
+    width: 15%;
+    text-align: center; 
+    border-radius: 10px;
+    background: #F63951;
+    color: #fff;
+    transition: none;
+}
+.header-main {
+    padding: 13px 0 12px;
+    background: #fff;
+    height: 113px;
+}
+.header-main.order_header {  background: #efefef; margin-bottom: 20px; }
+.navbar {
+    border-radius: 0;
+    min-height: auto;
+}
+
+.navbar-default {
+    background: 0 0;
+    border: none;
+    margin: 0;
+}
+
+.navbar-nav {
+    float: right;
+    margin: 9px auto;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    background: 0 0;
+    padding: 0;
+}
+
+.navbar-default .navbar-nav > li {
+    margin: 10px 20px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4e1e5e;
+    padding: 13px 0px;
+    position: relative;
+    border-radius: 10px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.navbar-default .navbar-nav > li.your-order {
+    margin: 10px 0 10px 35px;
+}
+
+.navbar-default .navbar-nav > li.your-order > a {
+    color: #fff;
+    background: url(../images/order-button-bg.png);
+    background-repeat: repeat-y;
+    padding: 13px;
+}
+.navbar-default .navbar-nav > li.your-order > a:hover {
+    border: none !important;
+    color: #fff;
+}
+.site-logo {
+    position: relative;
+    margin-left: 6em;
+}
+.back_return img {
+    position: absolute;
+    left: -125px;
+    width: 70px;
+    top: 5px;
+}
+.back_return img:hover {
+    content: url(../images/purple.png);
+}
+.nav > li > a > img {
+    max-width: none;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover,
+.navbar-toggle {
+    background: #5f26a1;
+}
+.modelbar.fade {
+    opacity: 1 !important;
+    background: rgba(0, 0, 0, 0.4);
+}
+.modelbar.fade .modal-body {
+    padding: 0px;
+}
+.modelbar.fade .modal-content {
+    background-color: #4e1e5e;
+}
+.modelbar .modal-dialog {
+    width: 80%;
+    margin: 30px auto;
+    margin-top: 240px;
+}
+.close-bar {
+    position: absolute;
+    right: 48px;
+    top: 18px;
+}
+
+.navbar-toggle {
+    margin-top: 20px;
+}
+
+#exampleModal .modal-dialog {
+    width: 80%;
+}
+
+#exampleModal .modal-body {
+    padding: 2% 5% 2% 5%;
+}
+
+#exampleModal .modal-body h3 {
+    font-size: 50px;
+    line-height: normal;
+    font-weight: 300;
+    margin: 5px auto;
+    background: -webkit-linear-gradient(left, #541f5d, #ff463d);
+    background: -o-linear-gradient(right, #541f5d, #fd463d);
+    background: -moz-linear-gradient(right, #541f5d, #fd463d);
+    background: linear-gradient(to right, #541f5d, #fd463d);
+    -webkit-background-clip: text;
+    text-align: center;
+    margin-bottom: 20px;
+    -webkit-text-fill-color: transparent;
+}
+
+#exampleModal .modal-body .nav-tabs > li {
+    border: 1px solid #fe4932;
+    margin-bottom: 18px;
+    float: none;
+    display: inline-block;
+}
+
+@media (max-width: 1350px) {
+    .navbar-default .navbar-nav > li {
+        margin: 5px 5px;
+    }
+    .navbar-default .navbar-nav > li > a {
+        font-size: 18px;
+    } 
+}
+@media (max-width: 1199px) {
+    .navbar-default .navbar-nav > li > a {
+        font-size: 16px;
+        padding: 12px 6px !important;
+    }
+}
+@media (max-width: 991px) {
+    .navbar-default .navbar-nav > li {
+        margin: 0px 3px;
+    }
+    .navbar-default .navbar-nav > li > a {
+        font-size: 14px;
+        padding: 12px 2px !important;
+    }
+}
+

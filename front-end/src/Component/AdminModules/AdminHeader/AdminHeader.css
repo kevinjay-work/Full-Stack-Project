@@ -1,0 +1,41 @@
+.add-btn  a {
+    background-color: rgb(78, 68, 223);
+    line-height: 40px;
+    padding: 0 45px;
+    color: #fff !important;
+    font-size: 15px !important;  
+}
+.add-btn a:hover {
+    background: #000 !important;
+    color: #fff !important;
+}
+.add-btn li button {
+    background: #ef3e56;
+    border-radius: 3px;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+.navbar-default .navbar-nav > li > a {
+    padding: 13px 15px;
+    
+}
+.navbar-default .navbar-nav>li a:hover { 
+    /* background: #662d91 !important;  */
+    color: #EF3E56;
+    border-radius: 0px;
+    background-color: #fff;
+    border-bottom: 2px solid  #EF3E56 !important;
+ }
+.navbar-default .navbar-nav>li a:focus {
+     /* background: #662d91 !important;  */
+     color: #EF3E56;
+     border-radius: 0px;
+     border-bottom: 2px solid  #EF3E56;
+}
+.navbar-default .navbar-nav>li.active a { 
+    /* background: #662d91 !important;   */
+    color: #EF3E56;
+    border-bottom: 2px solid  #EF3E56;
+    border-radius: 0px;
+}
